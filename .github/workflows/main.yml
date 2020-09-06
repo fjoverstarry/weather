@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAILPASSWORD }}
           subject: 泉州 Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
-          to: jm1179356055@gmail.com
+          to: 1179356055@qq.com
           from: GitHub Actions
           content_type: text/html
